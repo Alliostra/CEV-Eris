@@ -2080,7 +2080,7 @@
 
 /datum/chemical_reaction/nanohands
 	result = "nanohands"
-	required_reagents = list("uncap nanites" = 1, "nanohands" = 1)
+	required_reagents = list("uncap nanites" = 1, "sterilizine" = 1)
 	result_amount = 1
 
 /datum/chemical_reaction/nanovoice
