@@ -38,19 +38,19 @@
 	charge_cost = MECH_WEAPON_POWER_COST * 2
 
 /obj/item/mech_equipment/mounted_system/taser/laser
-	name = "\improper CH-PS \"Immolator\" laser"
+	name = "\Gatling Laser \"Annihilator\" "
 	desc = "An exosuit-mounted laser rifle. Handle with care."
 	icon_state = "mech_lasercarbine"
 	holding_type = /obj/item/weapon/gun/energy/laser/mounted/mech
 	matter = list(MATERIAL_PLASTEEL = 26, MATERIAL_SILVER = 5)
 	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 3)
 /obj/item/weapon/gun/energy/laser/mounted/mech
-	name = "\improper CH-PS \"Immolator\" laser"
+	name = "\Gatling Laser \"Annihilator\" "
 	use_external_power = TRUE
 	restrict_safety = TRUE
 	self_recharge = TRUE
 	twohanded = FALSE
-	charge_cost = MECH_WEAPON_POWER_COST * 1.75
+	charge_cost = MECH_WEAPON_POWER_COST * 0.1
 
 /obj/item/mech_equipment/mounted_system/taser/plasma
 	name = "mounted plasma cutter"
