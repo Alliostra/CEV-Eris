@@ -24,6 +24,9 @@
 	safety = FALSE
 	restrict_safety = TRUE
 	twohanded = FALSE
+	init_firemodes = list(
+		FULL_AUTO_400,
+		)
 
 /obj/item/weapon/gun/energy/laser/mounted/blitz
 	name = "SDF LR \"Strahl\""
